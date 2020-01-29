@@ -2,3 +2,16 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
+.questionChoice{
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+#initials{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#indicatorText{
+    color: grey;
+}

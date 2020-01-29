@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Coding Quiz</title>
 </head>
 <body>
     <div class="row text-center">
@@ -30,7 +30,30 @@
                 <button class="btn btn-primary float-left" id="home">Go back</button>
                 <button class="btn btn-primary float-right" id="clearHS">Clear Highscore</button>
             </div>
-            
+        </div>
+
+        <div class="col-sm-6 text-left" id="questions" style="display: none; margin-left: auto; margin-right: auto;">
+            <h2 id="questionsHeader"></h2>
+            <br>
+            <button class="btn btn-primary questionChoice" id="choice1"></button>
+            <br>
+            <button class="btn btn-primary questionChoice" id="choice2"></button>
+            <br>
+            <button class="btn btn-primary questionChoice" id="choice3"></button>
+            <br>
+            <button class="btn btn-primary questionChoice" id="choice4"></button>
+            <div id="answerIndicator" style="display: none;">
+                <hr>
+                <p id="indicatorText"></p>
+            </div>
+        </div>
+
+        <div class="col-sm-4 text-center" id="endingScore" style = "display: none; margin-left: auto; margin-right: auto;">
+            <h2 class="text-left">All done</h2>
+            <p class="text-left" id="scoreText">Your score is: </p>
+                <p class="float-left mr-2">Enter Initials<p>
+                <input type="text" class="float-left mr-2" id="initials">
+                <button type="submit" class="btn btn-primary float-left" id="submit">Submit</button>
         </div>
 
 
